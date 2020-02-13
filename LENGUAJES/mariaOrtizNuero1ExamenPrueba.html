@@ -1,0 +1,99 @@
+<DOCTYPE.html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title> La carta veloz S.L.</title>
+	
+	</head>
+	
+	<body>
+		<h1> LA CARTA VELOZ </h1>
+		<img src="sobres.jpg" width="150">
+		<br>
+		<br>
+		
+		<table border="1">
+			<tr>
+				<th>Producto</th>
+				<th>España</th>
+				<th>Resto Europa</th>
+				<th>América</th>
+				<th>Asia</th>
+				<th>Oceanía</th>
+				<th>África</th>
+			</tr>
+			
+			<tr>
+				<td>Normal</td>
+				<td>1,20</td>
+				<td>1,50</td>
+				<td>2,00</td>
+				<td>2,15</td>
+				<td>2,30</td>
+				<td>2,15</td>
+			</tr>
+			
+			<tr>
+				<td>Certificada</td>
+				<td>2,20</td>
+				<td>2,50</td>
+				<td>3,00</td>
+				<td>3,15</td>
+				<td>3,30</td>
+				<td>3,15</td>
+			</tr>
+			
+			<tr>
+				<td>Urgente</td>
+				<td>3</td>
+				<td>3,50</td>
+				<td>4,00</td>
+				<td>5,00</td>
+				<td>6,00</td>
+				<td>5,00</td>
+			</tr>
+
+		</table>
+		<br>
+		<br>
+		
+		<form action="#" method="post">
+			Producto*:<select id="productos" autofocus required>
+						<option>Normal</option>
+						<option>Certificada</option>
+						<option>Urgente</option>
+					</select>
+			<br>
+			
+			Destino*: <input id="destino" type="text" name="Destino" maxlength="40" list="destinod" required>
+					<datalist id="destinod">
+						<option value="España"> </option>
+						<option value="Resto Europa"> </option>
+						<option value="América"> </option>
+						<option value="Asia"> </option>
+						<option value="Oceanía"> </option>
+						<option value="África"> </option>
+						
+					</datalist>
+			
+			<br>
+			
+			Tarifa Extra:<input id="tarifaEx" type="number" name="extra" step="0.01" min="0.00" max="10.00" value="0">
+			
+			<br>
+			
+			Destino Origen*:<input id="origen" type="text" name="Dorigen" maxlength="40" pattern="^[A-Z][a-z]*\s?[A-Z]?[a-z]?*\s?[A-Z]?[a-z]+" required>
+			
+			<br>
+			
+			Email*: <input id="email" type="email" name="email" placeholder="ejemplo@ies.es" required>
+		<br>
+		<br>
+		
+		<input type="reset" value="RESET">
+		<input type="submit" value="ENVIAR"> 
+		</form>
+			
+	</body>
+
+</html>

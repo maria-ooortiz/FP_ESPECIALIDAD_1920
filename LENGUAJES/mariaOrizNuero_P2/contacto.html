@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Contacto</title>
+	<meta charset="UTF-8">
+	<link rel="STYLESHEET" type="text/css" href="contacto.css">
+</head>
+<body id="inicio">
+	<h2 class="sombra encabezados">Rellene esto para recibir información sobre nuestra página:</h2>
+		
+			<p> DATOS PERSONALES: </p> 
+			<form action="#" method="post">
+				Nombre: <input id="nombre" type="text" name="nombre" placeholder="nombre" autofocus><br><br>
+				Apellidos:<input id="apellidos" type="text" name="apellidos" placeholder="apellidos"><br><br>
+				Continente: <input id="continente" type="text" name="continente" pattern="^(Europa|America)$" placeholder="America o Europa" required><br><br>
+				País: <input id="pais" type="text" name="pais" placeholder="pais"><br><br>
+				Ciudad:<input id="ciudad" type="text" name="ciudad" placeholder="ciudad"><br><br>
+				Email: <input id="email" type="email" name="email" placeholder="email"><br><br>
+			</form>
+	
+	<input type="reset" value="Borrar Datos">
+	<input type="submit" value="Enviar Datos">
+
+</body>
+</html>

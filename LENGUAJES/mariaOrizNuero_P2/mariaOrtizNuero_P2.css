@@ -1,0 +1,145 @@
+#madrid
+{
+	text-align: center;
+	font: 60px times;
+}
+
+body 
+{
+	background-image: linear-gradient(to bottom,white,green 70% );
+}
+
+.logo
+{
+	margin-top:-130px;
+	position: absolute;
+	margin-left:5px;
+	width: 150px;
+}
+.menu
+{
+	background: #A8FFDB;
+	border: 5px solid #FF00C9;
+	border-radius: 10px;
+	margin-left: 110px;
+	width: 1100px;
+	padding: 15px 25px;
+}
+
+.menu li 
+{
+	display: inline-block;
+	list-style:;
+	padding: 10px;
+	font: 17px times;	
+}
+
+.menu a:link, a:visited 
+{
+	border: 2px solid #23FF00;
+	border-radius: 10px;
+	color: black;
+	background-color: #69FFA8;
+	text-align: center;
+	padding: 15px 20px;
+	display: inline-block;	
+}
+
+.menu a:hover, a:active
+{
+	background-color: #0EFF74;
+}
+
+.madridprin
+{
+	width: 1000px;
+	margin-left: 180px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.introduccion
+{
+	width: 650px;
+	padding: 20px 20px 20px 20px;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+	border-radius:5px;
+	float: center;
+	margin-left: 110px;
+	transition: transform 1s ease-out 0.5s;
+}
+
+.sitios
+{
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	background:transparent;
+	margin-left:110px;
+	margin-top:50px;
+	position:relative;
+	padding:5px 10px;
+	width:1000px;
+	height:2000px;
+}
+.cuadrado
+{
+	margin-left:50px;
+}
+.zoo
+{
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	background:transparent;
+	margin-left:110px;
+	margin-top:50px;
+	position:relative;
+	padding:5px 10px;
+	width:1000px;
+	height:800px;
+}
+.museos
+{
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	background:transparent;
+	margin-left:110px;
+	margin-top:50px;
+	position:relative;
+	padding:5px 10px;
+	width:1000px;
+	height:1050px;
+}
+.parques
+{
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	background:transparent;
+	margin-left:110px;
+	margin-top:50px;
+	position:relative;
+	padding:5px 10px;
+	width:1000px;
+	height:800px;
+}
+.imagen
+{
+	width:400px;
+	height:250px;
+	margin:0 auto;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

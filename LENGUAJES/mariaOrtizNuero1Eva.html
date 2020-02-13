@@ -1,0 +1,105 @@
+<DOCTYPE.html>
+<html lang="es">
+	<head>
+		<link rel="STYLESHEET" type="text/css" href="mariaOrtizNuero1Eva.css">
+		<meta charset="utf-8" />
+		<title>Lenguaje de Marcas</title>
+	<head>
+
+	<body>
+		<h1>Examen 1ª Evaluación (IES Clara del Rey)</h1>
+		<table>
+			<caption> Animales Sleccionados </caption>
+			<tr>
+				<th> Animal </th>
+				<th> Nombre Vulgar </th>
+				<th> Hábitat </th>
+				<th> Alimentación </th>
+				<th> Extinción </th>
+				<th> Salvaje </th>
+			</tr>
+		
+			<tr>
+				<td> <img id="leon" src="leon.jpg"> </td>
+				<td> <a href= "https://es.wikipedia.org/wiki/Panthera_leo" /> León</td>
+				<td> Sabana Africana y Asia </td>
+				<td> Carnívoro </td>
+				<td> Sí, el león africano </td>
+				<td> Sí </td>
+			</tr>
+			
+			<tr>
+				<td> <img id="avestruz" src="avestruz.jpg"> </td>
+				<td> <a href= "https://es.wikipedia.org/wiki/Struthio_camelus" /> Avestruz</td>
+				<td> África </td>
+				<td> Herbívoro e insectívoro </td>
+				<td> Sí, el avestruz andino </td>
+				<td> Sí </td>
+			</tr>
+			
+			<tr>
+				<td> <img id="llama" src="llama.jpg"> </td>
+				<td> <a href= "https://es.wikipedia.org/wiki/Lama_glama" /> LLama</td>
+				<td> Tierras altas de los Andes y el altiplano peruano a unos 4000 sobre el nivel del mar </td>
+				<td> Herbívoro </td>
+				<td> No </td>
+				<td> No </td>
+			</tr>
+		
+		</table>
+		
+		<form id="form01" action="#" method="post">
+			<fieldset>
+				<legend> Identificación </legend>
+					<label for="usuario">Usuario*: </label>
+					<input type="text" name="usuario" required pattern="^[3-5][C-F].{3,5}$">
+					</br>
+					<label for="contraseña"> Contraseña*: </label>
+					<input type="password" name="contraseña" required pattern="^Dm1E$">
+			
+			</fieldset>
+		
+			<fieldset>
+				<legend> Datos Personales </legend>
+					<label for="nombre"> Nombre: </label>
+					<input type="text" name="nombre" maxlength="40">
+					<label for="apellidos"> Apellidos: </label>
+					<input type="text" name="apellidos" maxlength="80">
+					</br>
+					<label for="email">Email: </label>
+					<input type="email" name="email" >
+					</br>
+					<label for="ciudad">Ciudad: </label>
+					<input id="ciudad" type="text" list="ciudades"/>
+						<datalist id="ciudades">
+							<option> Madrid </option>
+							<option> Barcelona </option>
+							<option> Sevilla </option>
+							<option> La Coruña </option>	
+						</datalist>
+			</fieldset>
+		
+			<fieldset>
+				<legend> Datos de Información </legend>
+				<label for="apadrina"> APADRINA </label></br>
+					 A un león <input type="radio" value="leon" name="n1"> </br>
+					 A un avestruz <input type="radio" value="avestruz" name="n1" checked> </br>
+					 A una llama  <input type="radio" value="llama" name="n1"> </br>
+				
+				</br>
+				</br>
+				
+				<label for="apadrina"> RECIBIR INFORMACIÓN SOBRE </label></br>
+					León<input type="checkbox" value="leon" name="infoleon" checked>
+					Avestruz<input type="checkbox" value="avestruz" name="infoaves">
+					LLama<input type="checkbox" value="llama" name="infollama" checked>
+					Todos ellos<input type="checkbox" value="todos" name="infotodo">
+				
+				</br>
+			<input type="SUBMIT" id="enviar" value="Enviar"/>
+			<input type="reset" id="borrar" value="Borrar Datos"/>
+			</fieldset>
+		
+	</body>
+	
+</DOCTYPE.html>
